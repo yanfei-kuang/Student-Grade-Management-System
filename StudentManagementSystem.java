@@ -41,6 +41,7 @@ public class StudentManagementSystem{
                     break;
                 case 6:
                    System.out.println("Programm beenden!");
+                   sc.close();
                    return;
                 default:
                     System.out.println("Tippfehler!");
